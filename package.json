@@ -4,6 +4,11 @@
   "description": "Googly Eyes for ThreeJS",
   "main": "build/three-googly-eyes.js",
   "module": "build/three-eyes.module.js",
+  "files": [
+    "build/**/*",
+    "README.md",
+    "LICENSE"
+  ],
   "sideEffects": false,
   "scripts": {
     "build": "rollup -c"
