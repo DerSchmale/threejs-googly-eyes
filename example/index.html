@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+    <title>ThreeJS Googly Eyes!</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <!-- Import Maps are currently not supported, so we use es-module-shims -->
+    <script defer src="./vendor/es-module-shims.js"></script>
+
+    <script type="importmap-shim">
+    {
+      "imports": {
+        "three": "./vendor/three.module.js",
+        "GooglyEyes": "../build/three-googly-eyes.module.js"
+      }
+    }
+    </script>
+
+    <script src="script.js" type="module-shim"></script>
+</head>
+<body>
+<canvas id="webglContainer">
+    Canvas tag not supported by the browser!
+</canvas>
+
+</body>
+</html>
