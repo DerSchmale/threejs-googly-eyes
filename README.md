@@ -11,8 +11,14 @@ Instant Googly Eyes for ThreeJS! Enjoy!
 GooglyEyes are made to simply create and add to an existing model. Moving/rotating the model will cause the googly eyes
 to update correctly when calling the `update` method.
 
+Add it to your project:
+```
+npm install @derschmale/threejs-googly-eyes
 ```
 
+And add it to your code!
+
+```
 // ... (whatever ThreeJS code)
 
 import GooglyEyes from "@derschmale/threejs-googly-eyes";
