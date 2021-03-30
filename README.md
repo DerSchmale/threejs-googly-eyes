@@ -18,6 +18,7 @@ npm install @derschmale/threejs-googly-eyes
 
 And add it to your code!
 
+```
 // ... (whatever ThreeJS code)
 
 import GooglyEyes from "@derschmale/threejs-googly-eyes";
